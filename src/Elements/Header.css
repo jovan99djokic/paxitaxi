@@ -15,6 +15,14 @@
     background-size:     cover;
   
   }
+  .h1 {
+    color: #D2902F;
+    font-size: 80px;
+    position: absolute; /* or absolute */
+    top: -5%;
+    left: 35%;
+    transform: translate(-1%, 10%);
+  }
   
   .header button {
   float: right;
@@ -45,11 +53,11 @@
     }
   
   
-  @media screen and (max-width:600px){
+  @media screen and (max-width:1000px){
     .header img {
       position: relative;
-      width:  150px;
-      height: 35px;
+      width:  50px;
+      height: 50px;
       background-position: 50% 50%;
       background-repeat:   no-repeat;
       background-size:     cover;
@@ -61,11 +69,21 @@
   border-radius:10px;
   margin-right: 10px;
   margin-top: 10px;
-  background-color: #1c009baf; /* Green */
-  color: white;
+  background-color: #D2902F; /* Green */
+  color: rgb(0, 0, 0);
   padding: 7px 16px;
   text-align: center;
   text-decoration: none;
   font-size: 10px;
         }
+        .h1 {
+          color: #D2902F;;
+          font-size: 30px;
+          position: absolute; /* or absolute */
+          top: -1%;
+          left: 50%;
+          transform: translate(-50%, 10%);
+        }
+
+
     }
