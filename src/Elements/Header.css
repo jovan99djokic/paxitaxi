@@ -15,7 +15,7 @@
     background-size:     cover;
   
   }
-  .h1 {
+  .header h1 {
     color: #D2902F;
     font-size: 80px;
     position: absolute; /* or absolute */
@@ -53,7 +53,16 @@
     }
   
   
-  @media screen and (max-width:1000px){
+  @media screen and (max-width:1024px){
+
+    .header {
+      padding: 5px;
+      text-align: left;
+      background: #2c2c2ce7;
+      color: rgb(0, 0, 0);
+      font-size: 5px;
+    }
+    
     .header img {
       position: relative;
       width:  50px;
@@ -76,12 +85,12 @@
   text-decoration: none;
   font-size: 10px;
         }
-        .h1 {
+        .header h1 {
           color: #D2902F;;
           font-size: 30px;
           position: absolute; /* or absolute */
-          top: -1%;
-          left: 50%;
+          top: -10px;
+          left: 45%;
           transform: translate(-50%, 10%);
         }
 
