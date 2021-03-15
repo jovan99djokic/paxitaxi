@@ -66,17 +66,70 @@
  
 }
 
-@media screen and (max-width:1024px){
-    .home img {
 
-        background-color: #cccccc;
+
+
+
+@media screen and (max-width:1024px){
+
+
+  .home img {
+
+    position: absolute;
+        height: 150%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ 
+}
+
+    .okvir {
+      width: 40%;
+      height: 200px;
+      border: 1px solid rgba(0, 0, 0, 0.719); 
+      background: #2c2c2c85;
+      position: absolute;
+      border-radius:30px;
+      top: 79px;
+      left: 30%;
+      transform: translate(-50%, 30%);
+    }
+    .okvir h1{
+      color: #000000;;
+      font-size: 10px;
+      position: sticky;
+      transform: translate(0%, 70%);
+    }
+    
+    
+    
+    .okvir1 {
+      width: 40%;
+      height: 200px;
+      border: 1px solid rgba(0, 0, 0, 0.719); 
+      position: absolute;
+      border-radius:30px;
+      top: 79px;
+      left: 70%;
+      transform: translate(-50%, 30%);
+    }
+    .okvir1 h1{
+      color: #000000;;
+      font-size: 30px;
+      position: sticky;
+      transform: translate(0%, 70%);
+    }
+    .okvir1 img {
+      background-size: contain;
+      position: absolute;
+      background-position: center;
+      border-radius:30px;
+      background-repeat: no-repeat;
       height: 100%;
       width: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
     }
+    
 
 }
 
