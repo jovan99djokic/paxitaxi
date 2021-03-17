@@ -7,19 +7,19 @@
     border-radius:30px;
     top: 1279px;
     left: 30%;
-    transform: translate(-50%, 30%);
+    transform: translate(-55%, 85%);
   }
   .tekst1 h1{
     color: #000000;;
-    font-size: 30px;
+    font-size: 25px;
     position: sticky;
-    transform: translate(0%, 70%);
+    transform: translate(0%, 50%);
   }
   .tekst1 h2{
     color: #000000;;
-    font-size: 30px;
+    font-size: 25px;
     position: sticky;
-    transform: translate(0%, 40%);
+    transform: translate(0%, 50%);
   }
   
   
@@ -32,7 +32,7 @@
     border-radius:30px;
     top: 1279px;
     left: 70%;
-    transform: translate(-50%, 30%);
+    transform: translate(-45%, 85%);
   }
   .slika1 h1{
     color: #000000;;
@@ -61,7 +61,7 @@
       border-radius:30px;
       top: 581px;
       left: 30%;
-      transform: translate(-50%, 30%);
+      transform: translate(-55%,135%);
     }
     .tekst1 h1{
       color: #000000;;
@@ -85,7 +85,7 @@
       border-radius:30px;
       top: 581px;
       left: 70%;
-      transform: translate(-50%, 30%);
+      transform: translate(-45%, 135%);
     }
     .slika1 h1{
       color: #000000;;

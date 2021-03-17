@@ -1,32 +1,30 @@
-.okvir {
-  width: 40%;
-  height: 500px;
-  border: 1px solid rgba(0, 0, 0, 0.719); 
-  background: #2c2c2c85;
-  position: absolute;
-  border-radius:30px;
-  top: 79px;
-  left: 30%;
-  transform: translate(-50%, 30%);
-}
+
 .okvir h1{
   color: #000000;;
-  font-size: 30px;
+  font-size: 25px;
   position: sticky;
-  transform: translate(0%, 70%);
+  transform: translate(0%, 50%);
 }
 
+.jeftinije h1{
+  color: #D2902F;;
+          font-size: 50px;
+          position: absolute; /* or absolute */
+          font-family: "Times New Roman", "Times", monospace;
+          top: 70px;
+          left: 50%;
+          text-align: center;
+          transform: translate(-50%, 10%);
+}
 
 
 .okvir1 {
-  width: 40%;
-  height: 500px;
-  border: 1px solid rgba(0, 0, 0, 0.719); 
+  width: 100%;
+  height: 100%;
   position: absolute;
-  border-radius:30px;
-  top: 79px;
-  left: 70%;
-  transform: translate(-50%, 30%);
+  z-index: -1;
+  min-height: 500px;
+  margin-top: 0px;
 }
 .okvir1 h1{
   color: #000000;;
@@ -38,9 +36,9 @@
   background-size: contain;
   position: absolute;
   background-position: center;
-  border-radius:30px;
   background-repeat: no-repeat;
   height: 100%;
+  min-height: 500px;
   width: 100%;
 }
 
@@ -65,72 +63,95 @@
     background-size: 100% 100%;
  
 }
+.broj{
+  color: #D2902F;;
+  font-size: 90px;
+  position: absolute; /* or absolute */
+  font-family: "Times New Roman", "Times", monospace;
+  top: 70%;
+  left: 39%;
+  right:39%;
+  text-align: center;
+}
 
 
 
 
 
 @media screen and (max-width:1024px){
+  .broj{
+    color: #D2902F;;
+    font-size: 40px;
+    position: absolute; /* or absolute */
+    font-family: "Times New Roman", "Times", monospace;
+    top: 380px;
+    left: 50%;
+    right:-50%;
+    text-align: center;
+    transform: translate(-50%, 50%);
+  }
+  
 
-
-  .home img {
-
+  .okvir h1{
+    color: #000000;;
+    font-size: 25px;
+    position: sticky;
+    transform: translate(0%, 50%);
+  }
+  
+  .jeftinije h1{
+    color: #D2902F;;
+            font-size: 17px;
+            position: absolute; /* or absolute */
+            font-family: "Times New Roman", "Times", monospace;
+            top: 70px;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%, 10%);
+  }
+  
+  
+  .okvir1 {
+    padding: 0;
+    margin: 0;
+    min-height: 600px;
+    max-height: 600px;
+  }
+  .okvir1 h1{
+    color: #000000;;
+    font-size: 30px;
+    position: sticky;
+    transform: translate(0%,70%);
+  }
+  .okvir1 img {
+    background-size: contain;
     position: absolute;
-        height: 150%;
-    width: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
- 
-}
-
-    .okvir {
-      width: 40%;
-      height: 200px;
-      border: 1px solid rgba(0, 0, 0, 0.719); 
-      background: #2c2c2c85;
-      position: absolute;
-      border-radius:30px;
-      top: 79px;
-      left: 30%;
-      transform: translate(-50%, 30%);
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  
+  .home h5 {
+            color: #000000;;
+            font-size: 30px;
+            position: absolute;
+            top: 79px;
+            left: 34%;
+            transform: translate(-50%, 130%);
     }
-    .okvir h1{
-      color: #000000;;
-      font-size: 10px;
-      position: sticky;
-      transform: translate(0%, 70%);
-    }
-    
-    
-    
-    .okvir1 {
-      width: 40%;
-      height: 200px;
-      border: 1px solid rgba(0, 0, 0, 0.719); 
-      position: absolute;
-      border-radius:30px;
-      top: 79px;
-      left: 70%;
-      transform: translate(-50%, 30%);
-    }
-    .okvir1 h1{
-      color: #000000;;
-      font-size: 30px;
-      position: sticky;
-      transform: translate(0%, 70%);
-    }
-    .okvir1 img {
-      background-size: contain;
-      position: absolute;
-      background-position: center;
-      border-radius:30px;
-      background-repeat: no-repeat;
+  
+  .home img {
+  
+      background-image: url('/src/Images/Pozadina.jpg');
       height: 100%;
       width: 100%;
-    }
-    
-
-}
-
-
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+   
+  }
+  
+}  

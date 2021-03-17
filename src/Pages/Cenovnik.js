@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../Elements/Header'
-import Pozadina from '../Images/Pozadina.jpg';
 
 import './Cenovnik.css'
 
@@ -11,13 +10,12 @@ function Cenovnik() {
     return (
         <>
         <Header></Header>
-        <div className="den"><img src={Pozadina} alt="Pozadina"></img></div>
         
         <div className="cen">
             <img src={Prvi_odradjen} alt="Cenovnik"></img>
             <img src={Drugi_odradjen} alt="Cenovnik"></img>
         </div>
-        
+   
         </>
     )
 }
